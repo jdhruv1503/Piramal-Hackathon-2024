@@ -8,37 +8,37 @@ This project implements a machine learning pipeline to predict credit default pr
 
 The ML pipeline consists of the following key components:
 
-1. **Exploratory Data Analysis** (`EDA.py`)
+1. **Exploratory Data Analysis** (`EDA.ipynb`)
    - Initial data exploration and statistical analysis
    - Distribution analysis of key features
    - Correlation studies
    - Missing value analysis
 
-2. **Data Preprocessing** (`Preprocessing.py`)
+2. **Data Preprocessing** (`Preprocessing.ipynb`)
    - Data cleaning and standardization
    - Handling missing values (initial pass)
    - Format standardization
    - Data validation checks
 
-3. **Advanced Imputation** (`Imputation.py`, `Impute2.py`)
+3. **Advanced Imputation** (`Imputation.ipynb`, `Impute2.ipynb`)
    - Multi-stage imputation strategy
    - Statistical imputation methods
    - Domain-specific imputation rules
    - Data quality validation
 
-4. **Feature Engineering** (`Aggregation, Impute2, Scaling.py`)
+4. **Feature Engineering** (`Aggregation, Impute2, Scaling.ipynb`)
    - Feature aggregation and grouping
    - Feature scaling and normalization
    - Feature selection
    - Dimensionality handling
 
-5. **Model Training** (`Model Training.py`)
+5. **Model Training** (`Model Training.ipynb`)
    - Model selection and hyperparameter tuning
    - Cross-validation implementation
    - Performance metrics evaluation
    - Model validation
 
-6. **Inference Pipeline** (`Inference.py`)
+6. **Inference Pipeline** (`Inference.ipynb`)
    - Production-ready inference code
    - Model loading and prediction
    - Output formatting
